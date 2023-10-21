@@ -43,31 +43,31 @@ class Home extends StatelessWidget {
                 child: Text('screen 1'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 2'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 3'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 4'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 5'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 6'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 7'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 8'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 9'),
               ),
               Tab(
-                child: Text('screen 1'),
+                child: Text('screen 10'),
               ),
             ],
           ),

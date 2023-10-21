@@ -5,6 +5,20 @@ class Screen3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        leading: const Icon(Icons.arrow_back),
+        actions: const [
+          Icon(Icons.menu)
+        ],
+      ),
+      body: const Column(
+        children: [
+          SizedBox(height: 20,),
+          Text('Create your new \nsaving goal'),
+
+        ],
+      ),
+    );
   }
 }

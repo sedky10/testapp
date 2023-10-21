@@ -18,13 +18,22 @@ class Screen1 extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton(onPressed: () {},
-                  child: const Row(
-                    children: [
-                      Text("Disconnect", style: TextStyle(color: Colors.grey),),
-
-                    ],
-                  ))
+              Container(
+                width: 200,
+                child: ElevatedButton(onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)
+                      ),
+                      backgroundColor: Colors.white,
+                    ),
+                    child: const Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text("Disconnect", style: TextStyle(color: Colors.grey),),
+                      ],
+                    )),
+              )
             ],
           ),
         ),

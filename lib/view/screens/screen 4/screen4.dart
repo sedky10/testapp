@@ -7,11 +7,16 @@ class Screen4 extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-
         home: Scaffold(
         backgroundColor: Colors.yellow,
          appBar: AppBar(
-
+           actions: [
+             IconButton(
+               icon: Icon(Icons.arrow_back_outlined,color: Colors.white,),
+               onPressed: () {},
+             ),
+           ],
+         title: Text("Schedule"),
          ),
          body:Center(
 
